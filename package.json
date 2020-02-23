@@ -1,0 +1,27 @@
+{
+  "name": "micromerce-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "target": "node",
+  "scripts": {
+    "start": "webpack && nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+    head
+      title Test page
+      meta(name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1")
+      meta(name="description" content="test page")
+      script(src="main.bundle.js")
+      link(rel="stylesheet", href="main.css")
+    body
+    img.logo(src="/logo.svg", alt="logo")
+    div.carousel-wrapper
+      div.carousel-container
+        each image in images
+          img.carousel-item(src=image.src, alt=image.alt)
+    main.content
+      h3 #{content.header}
+      br
+      p #{content.text1}
+      br
+      p #{content.text2}
